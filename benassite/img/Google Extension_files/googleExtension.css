@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  min-width: 600px;
+}
+.container{
+  padding: 10px;
+}
+input{
+  width: 100%;
+  border: 2px solid #5f9341;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+#input-btn{
+  border: 2px solid #5f9341;
+  background-color: #5f9341;
+  color: aliceblue;
+  font-weight: bolder;
+  padding: 15px 30px ; 
+  cursor: pointer;
+}
+#reset-btn{
+  border: 2px solid #5f9341;
+  color: #5f9341;
+  background-color: white;
+  font-weight: bolder;
+  padding: 15px 30px ; 
+  cursor: pointer;
+}
+
+
+#save-tab-btn{
+  border: 2px solid #5f9341;
+  color: white;
+  background-color: #5f9341;
+  font-weight: bolder;
+  padding: 15px 30px ; 
+  cursor: pointer;
+}
+button:active{
+  transform: scale(.95);
+}
+
+ul{
+  padding: 0;
+  margin-top: 1em;
+}
+li{
+  list-style: none;
+  margin-top: 2em;
+}
+a{
+  color: green;
+}
